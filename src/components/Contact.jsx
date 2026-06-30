@@ -9,7 +9,7 @@ import '../styles/Contact.css';
 // 4. Go to Account → API Keys → copy Public Key below
 const EMAILJS_SERVICE_ID  = 'service_9n83p9d';
 const EMAILJS_TEMPLATE_ID = 'template_uo3pc79';
-const EMAILJS_PUBLIC_KEY  = 'NdPCOvlHroH40qTcL';
+const EMAILJS_PUBLIC_KEY  = 'NdPCOvIHroH40qTcL';
 // ──────────────────────────────────────────────────────────────────────────────
 
 const STATUS = { IDLE: 'idle', SENDING: 'sending', SUCCESS: 'success', ERROR: 'error' };
