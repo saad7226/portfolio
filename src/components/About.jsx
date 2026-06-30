@@ -39,8 +39,8 @@ export default function About() {
               <div className="about-card-title">Education</div>
               <div className="about-card-value">BSCS — Air University</div>
               <div className="about-card-sub">Aerospace & Aviation Campus, Kamra</div>
-              <div className="about-card-sub">Sep 2022 — Present</div>
-              <div className="cgpa-badge">⭐ 3.3 CGPA (6 Semesters)</div>
+              <div className="about-card-sub">Sep 2022 — Jun 2026</div>
+              <div className="cgpa-badge">⭐ 3.3 CGPA (8 Semesters)</div>
             </div>
 
             <div className="about-card">
