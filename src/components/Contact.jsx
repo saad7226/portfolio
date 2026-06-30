@@ -28,11 +28,11 @@ export default function Contact() {
     setStatus(STATUS.SENDING);
 
     try {
-      await emailjs.sendForm(
+      await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
-        formRef.current,
-        { publicKey: EMAILJS_PUBLIC_KEY }
+        form,
+        EMAILJS_PUBLIC_KEY
       );
       setStatus(STATUS.SUCCESS);
       setForm({ name: '', email: '', subject: '', message: '' });
