@@ -84,7 +84,7 @@ export default function ImageSlider({ media = [], interval = 4000, name = '' }) 
               src={item.src}
               muted
               playsInline
-              preload="metadata"
+              preload="none"
               onEnded={next}
             />
           ) : (
