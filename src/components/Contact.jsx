@@ -7,9 +7,9 @@ import '../styles/Contact.css';
 // 2. Create an Email Service (Gmail) → copy Service ID below
 // 3. Create an Email Template → copy Template ID below
 // 4. Go to Account → API Keys → copy Public Key below
-const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';   // e.g. 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';  // e.g. 'template_xyz789'
-const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';   // e.g. 'abcDEF123456'
+const EMAILJS_SERVICE_ID  = 'service_9n83p9d';
+const EMAILJS_TEMPLATE_ID = 'template_zoup29w';
+const EMAILJS_PUBLIC_KEY  = 'NdPCOvlHroH40qTcL';
 // ──────────────────────────────────────────────────────────────────────────────
 
 const STATUS = { IDLE: 'idle', SENDING: 'sending', SUCCESS: 'success', ERROR: 'error' };
