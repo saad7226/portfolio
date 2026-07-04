@@ -2,6 +2,13 @@ import '../styles/About.css';
 
 const certifications = [
   {
+    issuer: 'National Skill Competency Test (NSCT)',
+    name: 'Score: 67/100 (95.3 Percentile)',
+    date: 'Apr 2026',
+    link: null,
+    description: 'Strong competencies in core CS domains: Data Structures & Algorithms (8/10), Databases (8/10), Web Development Basics (8/10), and Problem Solving/Analytics (14/20).'
+  },
+  {
     issuer: 'Stanford / Coursera',
     name: 'Supervised Machine Learning: Regression & Classification',
     date: 'Sep 2023',
@@ -130,7 +137,8 @@ export default function About() {
                   >
                     <div className="cert-issuer">{cert.issuer}</div>
                     <div className="cert-name">{cert.name}</div>
-                    <div className="cert-date">{cert.date}</div>
+                    {cert.description && <div className="cert-desc" style={{ fontSize: '13px', color: 'var(--text-secondary)', marginTop: '8px', lineHeight: '1.5' }}>{cert.description}</div>}
+                    <div className="cert-date" style={{ marginTop: cert.description ? '12px' : '4px' }}>{cert.date}</div>
                   </a>
                 ))}
               </div>
