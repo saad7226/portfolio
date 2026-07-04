@@ -3,30 +3,30 @@ import '../styles/Projects.css';
 
 // =============================================
 // VERIFIED IMAGE MAPPING (from visual analysis):
-// image.png    = Tic Tac Toe console (C++ menu)
-// image2.png   = Tic Tac Toe gameplay board
+// image.webp    = Tic Tac Toe console (C++ menu)
+// image2.webp   = Tic Tac Toe gameplay board
 // image3-5     = Tic Tac Toe more states
-// image6.png   = FitMate Desktop - Sign Up screen
+// image6.webp   = FitMate Desktop - Sign Up screen
 // image7-8     = FitMate Desktop - more screens
-// image9.png   = FitMate Desktop - Dashboard
+// image9.webp   = FitMate Desktop - Dashboard
 // imagea-f     = FitMate Desktop - exercise screens
-// image10.png  = FitMate Desktop - Calories
-// image11.png  = AI Insurance web - landing page
+// image10.webp  = FitMate Desktop - Calories
+// image11.webp  = AI Insurance web - landing page
 // image12-1b   = AI Insurance web - more screens
-// image1c.png  = Product Catalog / E-Commerce app
+// image1c.webp  = Product Catalog / E-Commerce app
 // image1d-24   = E-commerce more screens
-// image2b.png  = Ludo Game console output
-// image2c.png  = FitMate Mobile - Splash/Start screen
+// image2b.webp  = Ludo Game console output
+// image2c.webp  = FitMate Mobile - Splash/Start screen
 // image2d-2e   = FitMate Mobile - more screens
-// image2f.png  = FitMate Mobile / another screen
+// image2f.webp  = FitMate Mobile / another screen
 // image30-34   = Various project screens
-// image35.png  = FitMate Mobile - Back Workout list
+// image35.webp  = FitMate Mobile - Back Workout list
 // image36-39   = FitMate Mobile - more workouts
-// image3a.png  = FitMate Mobile - another workout
-// image3b.png  = FitMate Mobile - Cardio Workout
+// image3a.webp  = FitMate Mobile - another workout
+// image3b.webp  = FitMate Mobile - Cardio Workout
 // image3c-3f   = FitMate Mobile screens
-// image40.png  = FitMate Mobile - Water Tracking
-// image41.png  = FitMate Mobile - Healthy Eating
+// image40.webp  = FitMate Mobile - Water Tracking
+// image41.webp  = FitMate Mobile - Healthy Eating
 // =============================================
 
 const fypMedia = [
@@ -46,17 +46,17 @@ const projects = [
     description:
       'Comprehensive Android app built with Kotlin featuring personalized workout routines (Back, Chest, Shoulders, Cardio), diet plans, water intake tracking, video-guided exercises, and health calculators (BMI, BMR).',
     media: [
-      { type: 'image', src: '/image2c.png', alt: 'FitMate Splash Screen' },
-      { type: 'image', src: '/image2d.png', alt: 'FitMate Login' },
-      { type: 'image', src: '/image2e.png', alt: 'FitMate Home' },
-      { type: 'image', src: '/image35.png', alt: 'FitMate Back Workout' },
-      { type: 'image', src: '/image3b.png', alt: 'FitMate Cardio Workout' },
-      { type: 'image', src: '/image40.png', alt: 'FitMate Water Tracking' },
-      { type: 'image', src: '/image41.png', alt: 'FitMate Healthy Eating' },
-      { type: 'image', src: '/image3c.png', alt: 'FitMate Workouts' },
-      { type: 'image', src: '/image3d.png', alt: 'FitMate Progress' },
-      { type: 'image', src: '/image3e.png', alt: 'FitMate Exercise Detail' },
-      { type: 'image', src: '/image3f.png', alt: 'FitMate Nutrition' },
+      { type: 'image', src: '/image2c.webp', alt: 'FitMate Splash Screen' },
+      { type: 'image', src: '/image2d.webp', alt: 'FitMate Login' },
+      { type: 'image', src: '/image2e.webp', alt: 'FitMate Home' },
+      { type: 'image', src: '/image35.webp', alt: 'FitMate Back Workout' },
+      { type: 'image', src: '/image3b.webp', alt: 'FitMate Cardio Workout' },
+      { type: 'image', src: '/image40.webp', alt: 'FitMate Water Tracking' },
+      { type: 'image', src: '/image41.webp', alt: 'FitMate Healthy Eating' },
+      { type: 'image', src: '/image3c.webp', alt: 'FitMate Workouts' },
+      { type: 'image', src: '/image3d.webp', alt: 'FitMate Progress' },
+      { type: 'image', src: '/image3e.webp', alt: 'FitMate Exercise Detail' },
+      { type: 'image', src: '/image3f.webp', alt: 'FitMate Nutrition' },
     ],
     tags: ['Kotlin', 'Android Studio', 'MVVM', 'Firebase'],
     github: 'https://github.com/saad7226/FitMate',
@@ -68,17 +68,17 @@ const projects = [
     description:
       'Desktop fitness dashboard featuring activity tracking, workout progress charts, sleep monitoring, weather integration, goal tracking, and heart rate metrics. Built with a modern, data-driven interface.',
     media: [
-      { type: 'image', src: '/image6.png', alt: 'FitMate Desktop Sign Up' },
-      { type: 'image', src: '/image7.png', alt: 'FitMate Desktop Sign In' },
-      { type: 'image', src: '/image8.png', alt: 'FitMate Desktop Onboarding' },
-      { type: 'image', src: '/image9.png', alt: 'FitMate Desktop Dashboard' },
-      { type: 'image', src: '/imagea.png', alt: 'FitMate Water Intake' },
-      { type: 'image', src: '/imageb.png', alt: 'FitMate Exercise Log' },
-      { type: 'image', src: '/imagec.png', alt: 'FitMate Back Workout' },
-      { type: 'image', src: '/imaged.png', alt: 'FitMate Chest Workout' },
-      { type: 'image', src: '/imagee.png', alt: 'FitMate Shoulder Workout' },
-      { type: 'image', src: '/imagef.png', alt: 'FitMate Cardio Workout' },
-      { type: 'image', src: '/image10.png', alt: 'FitMate Calories' },
+      { type: 'image', src: '/image6.webp', alt: 'FitMate Desktop Sign Up' },
+      { type: 'image', src: '/image7.webp', alt: 'FitMate Desktop Sign In' },
+      { type: 'image', src: '/image8.webp', alt: 'FitMate Desktop Onboarding' },
+      { type: 'image', src: '/image9.webp', alt: 'FitMate Desktop Dashboard' },
+      { type: 'image', src: '/imagea.webp', alt: 'FitMate Water Intake' },
+      { type: 'image', src: '/imageb.webp', alt: 'FitMate Exercise Log' },
+      { type: 'image', src: '/imagec.webp', alt: 'FitMate Back Workout' },
+      { type: 'image', src: '/imaged.webp', alt: 'FitMate Chest Workout' },
+      { type: 'image', src: '/imagee.webp', alt: 'FitMate Shoulder Workout' },
+      { type: 'image', src: '/imagef.webp', alt: 'FitMate Cardio Workout' },
+      { type: 'image', src: '/image10.webp', alt: 'FitMate Calories' },
     ],
     tags: ['Python', 'Tkinter', 'Charts', 'SQLite'],
     github: 'https://github.com/saad7226/FitMate',
@@ -91,11 +91,11 @@ const projects = [
       'ML model predicting insurance claim risks using Porto Seguro dataset deployed as a Flask web app. Achieved 96.32% accuracy with Random Forest and 96.12% with ANN, with ROC-AUC of 0.97.',
     media: [
       { type: 'video', src: '/ai-demo.mp4' },
-      { type: 'image', src: '/image11.png', alt: 'AI Insurance Landing Page' },
-      { type: 'image', src: '/image12.png', alt: 'AI Insurance Prediction Form' },
-      { type: 'image', src: '/image13.png', alt: 'Class Distribution Chart' },
-      { type: 'image', src: '/image14.png', alt: 'Missing Values Heatmap' },
-      { type: 'image', src: '/image15.png', alt: 'Correlation Matrix' },
+      { type: 'image', src: '/image11.webp', alt: 'AI Insurance Landing Page' },
+      { type: 'image', src: '/image12.webp', alt: 'AI Insurance Prediction Form' },
+      { type: 'image', src: '/image13.webp', alt: 'Class Distribution Chart' },
+      { type: 'image', src: '/image14.webp', alt: 'Missing Values Heatmap' },
+      { type: 'image', src: '/image15.webp', alt: 'Correlation Matrix' },
     ],
     tags: ['Python', 'Scikit-Learn', 'Flask', 'RandomForest', 'ANN', 'Pandas'],
     github: 'https://github.com/saad7226/AI-Insurance-Claim-Predictor',
@@ -107,9 +107,9 @@ const projects = [
     description:
       'Full-featured e-commerce product catalog with category filtering (Smartphones, Sports, Laptops), product grid display, search functionality, and shopping cart management.',
     media: [
-      { type: 'image', src: '/image1c.png', alt: 'Product Catalog Main' },
-      { type: 'image', src: '/image1d.png', alt: 'Shopping Cart' },
-      { type: 'image', src: '/image1e.png', alt: 'Checkout & Bill' },
+      { type: 'image', src: '/image1c.webp', alt: 'Product Catalog Main' },
+      { type: 'image', src: '/image1d.webp', alt: 'Shopping Cart' },
+      { type: 'image', src: '/image1e.webp', alt: 'Checkout & Bill' },
     ],
     tags: ['JavaScript', 'CSS', 'HTML5', 'LocalStorage'],
     github: 'https://github.com/saad7226/E-commerce',
@@ -144,14 +144,14 @@ const projects = [
     description:
       'Console-based Ludo game implementing OS multithreading concepts in Java. Features thread synchronization, mutex locks, and concurrent game state management for multiple players.',
     media: [
-      { type: 'image', src: '/image24.png', alt: 'Ludo Console Output 1' },
-      { type: 'image', src: '/image25.png', alt: 'Ludo Console Output 2' },
-      { type: 'image', src: '/image26.png', alt: 'Ludo Board State' },
-      { type: 'image', src: '/image27.png', alt: 'Ludo Player Tokens' },
-      { type: 'image', src: '/image28.png', alt: 'Ludo Game Flow' },
-      { type: 'image', src: '/image29.png', alt: 'Ludo Thread State' },
-      { type: 'image', src: '/image2a.png', alt: 'Ludo Win State' },
-      { type: 'image', src: '/image2b.png', alt: 'Ludo Final Output' },
+      { type: 'image', src: '/image24.webp', alt: 'Ludo Console Output 1' },
+      { type: 'image', src: '/image25.webp', alt: 'Ludo Console Output 2' },
+      { type: 'image', src: '/image26.webp', alt: 'Ludo Board State' },
+      { type: 'image', src: '/image27.webp', alt: 'Ludo Player Tokens' },
+      { type: 'image', src: '/image28.webp', alt: 'Ludo Game Flow' },
+      { type: 'image', src: '/image29.webp', alt: 'Ludo Thread State' },
+      { type: 'image', src: '/image2a.webp', alt: 'Ludo Win State' },
+      { type: 'image', src: '/image2b.webp', alt: 'Ludo Final Output' },
     ],
     tags: ['Java', 'Multithreading', 'OS Concepts', 'Console', 'Mutex'],
     github: 'https://github.com/saad7226',
@@ -163,11 +163,11 @@ const projects = [
     description:
       'Classic Tic Tac Toe console game featuring 2-player mode, move validation, win/draw detection, and a clean ASCII board interface. Built as a foundational C++ programming exercise.',
     media: [
-      { type: 'image', src: '/image.png', alt: 'Tic Tac Toe Main Menu' },
-      { type: 'image', src: '/image2.png', alt: 'Tic Tac Toe Gameplay' },
-      { type: 'image', src: '/image3.png', alt: 'Tic Tac Toe Board' },
-      { type: 'image', src: '/image4.png', alt: 'Tic Tac Toe Win State' },
-      { type: 'image', src: '/image5.png', alt: 'Tic Tac Toe Results' },
+      { type: 'image', src: '/image.webp', alt: 'Tic Tac Toe Main Menu' },
+      { type: 'image', src: '/image2.webp', alt: 'Tic Tac Toe Gameplay' },
+      { type: 'image', src: '/image3.webp', alt: 'Tic Tac Toe Board' },
+      { type: 'image', src: '/image4.webp', alt: 'Tic Tac Toe Win State' },
+      { type: 'image', src: '/image5.webp', alt: 'Tic Tac Toe Results' },
     ],
     tags: ['C++', 'Console', 'Game Logic', 'OOP'],
     github: 'https://github.com/saad7226',
@@ -190,7 +190,7 @@ const projects = [
       'Jupyter Notebook-based steganography application for hiding secret images inside host images using LSB (Least Significant Bit) technique with visual bounding-box feedback and preprocessing pipeline.',
     media: [
       { type: 'video', src: '/securesteg-demo.mp4' },
-      { type: 'image', src: '/securesteg-preview.png', alt: 'SecureSteg Preview' },
+      { type: 'image', src: '/securesteg-preview.webp', alt: 'SecureSteg Preview' },
     ],
     tags: ['Python', 'Jupyter', 'OpenCV', 'LSB Steganography', 'PIL'],
     github: 'https://github.com/saad7226/SecureSteg',
@@ -202,10 +202,10 @@ const projects = [
     description:
       'Tkinter app detecting and decoding barcodes from images using preprocessing, contour detection, and Pyzbar library. Features visual bounding-box feedback and supports multiple barcode formats.',
     media: [
-      { type: 'image', src: '/barcode_slide11_image7.png', alt: 'Barcode Detection Output 1' },
-      { type: 'image', src: '/barcode_slide12_image8.png', alt: 'Barcode Detection Output 2' },
-      { type: 'image', src: '/barcode_slide13_image9.png', alt: 'Barcode Detection Output 3' },
-      { type: 'image', src: '/barcode_slide14_image10.png', alt: 'Barcode Detection Output 4' },
+      { type: 'image', src: '/barcode_slide11_image7.webp', alt: 'Barcode Detection Output 1' },
+      { type: 'image', src: '/barcode_slide12_image8.webp', alt: 'Barcode Detection Output 2' },
+      { type: 'image', src: '/barcode_slide13_image9.webp', alt: 'Barcode Detection Output 3' },
+      { type: 'image', src: '/barcode_slide14_image10.webp', alt: 'Barcode Detection Output 4' },
     ],
     tags: ['Python', 'OpenCV', 'Pyzbar', 'Tkinter', 'Computer Vision'],
     github: 'https://github.com/saad7226',
