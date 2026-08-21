@@ -41,28 +41,6 @@ const fypTechs = [
 
 const projects = [
   {
-    id: 'vmart-inventory',
-    name: 'V-Mart — Real-Time Inventory Management System',
-    description:
-      'Advanced POS & inventory management system powering the Virtual Mart VR Store. A full-stack web dashboard with real-time product sync, high-performance POS terminal, role-based access control, sales reporting, and REST APIs serving the Unity VR client. Built with Laravel, React.js & MySQL.',
-    media: [
-      { type: 'image', src: '/vmart-inventory/dashboard.png', alt: 'Admin Dashboard' },
-      { type: 'image', src: '/vmart-inventory/pos.png', alt: 'POS Terminal' },
-      { type: 'image', src: '/vmart-inventory/pos_invoice.png', alt: 'POS Invoice' },
-      { type: 'image', src: '/vmart-inventory/sales.png', alt: 'Sales List' },
-      { type: 'image', src: '/vmart-inventory/product_list.png', alt: 'Product List' },
-      { type: 'image', src: '/vmart-inventory/product_create.png', alt: 'Add Product' },
-      { type: 'image', src: '/vmart-inventory/product_purchase.png', alt: 'Product Purchase' },
-      { type: 'image', src: '/vmart-inventory/summery.png', alt: 'Summary Report' },
-      { type: 'image', src: '/vmart-inventory/sales_report.png', alt: 'Sales Report' },
-      { type: 'image', src: '/vmart-inventory/role_permission.png', alt: 'Role & Permissions' },
-      { type: 'image', src: '/vmart-inventory/settings.png', alt: 'Settings' },
-    ],
-    tags: ['Laravel', 'React.js', 'PHP', 'MySQL', 'REST API', 'Vite'],
-    github: 'https://github.com/saad7226/V-Mart_Inventory',
-    langClass: 'js',
-  },
-  {
     id: 'fitmate-mobile',
     name: 'FitMate — Mobile Fitness Companion',
     description:
@@ -246,7 +224,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="section-subtitle">
-            12+ projects spanning AI/ML systems, full-stack web apps, mobile development,
+            11+ projects spanning AI/ML systems, full-stack web apps, mobile development,
             and computer science fundamentals — each built with real-world intent.
           </p>
           <div className="section-divider" />
