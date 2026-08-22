@@ -248,11 +248,6 @@ export default function Projects() {
             <div className="fyp-inner">
               {/* Content */}
               <div className="fyp-content">
-                <div className="fyp-badge-row">
-                  <span className="fyp-badge-main fyp-badge-star">⭐ Main Project</span>
-                  <span className="fyp-badge-main">🎓 Final Year Project</span>
-                  <span className="fyp-badge-main">🔬 Research-Based</span>
-                </div>
 
                 <h2 className="fyp-title">V-Mart Inventory</h2>
                 <div className="fyp-subtitle">
