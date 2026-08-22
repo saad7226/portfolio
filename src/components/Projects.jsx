@@ -41,6 +41,20 @@ const fypTechs = [
 
 const projects = [
   {
+    id: 'vmart-inventory',
+    name: 'V-Mart — Real-Time Inventory Management System',
+    description:
+      'Advanced full-stack POS & inventory management web dashboard powering the Virtual Mart VR Store. Features a real-time POS terminal, product & stock management, role-based access control, detailed sales reporting, and REST APIs that feed data directly into the Unity VR client. Built with Laravel, React.js & MySQL.',
+    media: [
+      { type: 'image', src: '/vmart-inventory/image1.png', alt: 'V-Mart Login Page' },
+      { type: 'image', src: '/vmart-inventory/image2.png', alt: 'V-Mart Dashboard Overview' },
+      { type: 'image', src: '/vmart-inventory/image3.png', alt: 'V-Mart Dashboard Metrics' },
+    ],
+    tags: ['Laravel', 'React.js', 'PHP', 'MySQL', 'REST API', 'Vite'],
+    github: 'https://github.com/saad7226/V-Mart_Inventory',
+    langClass: 'js',
+  },
+  {
     id: 'fitmate-mobile',
     name: 'FitMate — Mobile Fitness Companion',
     description:
@@ -224,7 +238,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="section-subtitle">
-            11+ projects spanning AI/ML systems, full-stack web apps, mobile development,
+            12+ projects spanning AI/ML systems, full-stack web apps, mobile development,
             and computer science fundamentals — each built with real-world intent.
           </p>
           <div className="section-divider" />
