@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import '../styles/Hero.css';
 
 const roles = [
-  'Full-Stack Developer',
-  'AI/ML Engineer',
+  'PHP Laravel Developer',
+  'Full-Stack Web Developer',
+  'Backend Developer',
   'React Developer',
-  'Python Developer',
   'Problem Solver',
 ];
 
@@ -61,9 +61,8 @@ export default function Hero() {
 
           <p className="hero-description">
             Dedicated <strong>Computer Science student</strong> at Air University with a strong foundation in
-            <strong> full-stack development</strong>, <strong>artificial intelligence</strong>, and <strong>machine learning</strong>.
-            Led the AI/ML component of <strong>News Pulse</strong> — a research-based FYP leveraging AI to
-            combat misinformation. CGPA: <strong>3.3 / 4.0</strong>.
+            <strong> full-stack web development</strong>, <strong>MVC architecture</strong>, and <strong>backend systems</strong>.
+            Skilled in <strong>PHP Laravel</strong>, React, and MySQL, with a passion for building robust REST APIs and scalable web applications. CGPA: <strong>3.3 / 4.0</strong>.
           </p>
 
           <div className="hero-actions">
@@ -126,16 +125,16 @@ export default function Hero() {
 
             {/* Floating tech badges */}
             <div className="tech-badge tech-badge-1">
-              <span className="tech-badge-icon">🐍</span> Python
+              <span className="tech-badge-icon">🐘</span> PHP
             </div>
             <div className="tech-badge tech-badge-2">
               <span className="tech-badge-icon">⚛️</span> React
             </div>
             <div className="tech-badge tech-badge-3">
-              <span className="tech-badge-icon">🤖</span> AI / ML
+              <span className="tech-badge-icon">🚀</span> Laravel
             </div>
             <div className="tech-badge tech-badge-4">
-              <span className="tech-badge-icon">🐳</span> Docker
+              <span className="tech-badge-icon">🐬</span> MySQL
             </div>
           </div>
         </div>

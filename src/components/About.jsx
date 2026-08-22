@@ -77,23 +77,19 @@ export default function About() {
           <div className="about-content">
             <div className="about-text-block">
               <h2 className="about-heading">
-                Building the <span className="gradient-text">Future</span><br />
-                with Code & AI
+                Building Robust <span className="gradient-text">Systems</span><br />
+                for the Web
               </h2>
               <p className="about-para">
                 I'm a final-year <strong>Computer Science student</strong> at Air University with a passion for building
-                intelligent, scalable systems. My expertise spans <strong>full-stack web development</strong>,
-                <strong> machine learning</strong>, and <strong>AI-powered applications</strong>.
+                scalable, high-performance web applications. My expertise spans <strong>full-stack web development</strong>,
+                <strong> MVC architecture</strong>, and <strong>backend engineering</strong>.
               </p>
               <p className="about-para">
-                As the <strong>Group Leader & AI/ML Specialist</strong> for my Final Year Project — <strong>News Pulse</strong> —
-                I architected a microservices-based platform that leverages <strong>BERT</strong>, <strong>LLMs</strong>,
-                and <strong>FastAPI</strong> to combat misinformation and political bias in news consumption.
+                I specialize in robust backend frameworks like <strong>Laravel (PHP)</strong> and ASP.NET Core, alongside modern frontend technologies. From developing real-time inventory management dashboards to integrating third-party APIs and managing relational databases (MySQL, SQL Server), I focus on writing clean, maintainable code.
               </p>
               <p className="about-para">
-                I thrive at the intersection of AI research and software engineering, turning complex problems
-                into elegant, user-focused solutions. I'm eager to pursue a <strong>Master's degree in Computer Science</strong>
-                to advance my expertise in AI.
+                I thrive in dynamic environments where I can solve complex problems and deliver elegant, user-focused solutions. I am actively seeking a challenging role as a <strong>Backend/PHP Developer</strong> where I can contribute to real-world projects and grow alongside a talented team.
               </p>
             </div>
 
