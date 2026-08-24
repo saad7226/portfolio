@@ -30,27 +30,29 @@ import '../styles/Projects.css';
 // =============================================
 
 const fypMedia = [
-  { type: 'image', src: '/vmart-inventory/image1.png', alt: 'V-Mart Login Page' },
-  { type: 'image', src: '/vmart-inventory/image2.png', alt: 'V-Mart Dashboard Overview' },
-  { type: 'image', src: '/vmart-inventory/image3.png', alt: 'V-Mart Dashboard Metrics' },
+  { type: 'video', src: '/newspulse-demo.mp4' },
 ];
 
 const fypTechs = [
-  'Laravel', 'PHP', 'MySQL', 'React.js', 'REST API', 'MVC Architecture', 'Vite'
+  'Python', 'React.js', 'FastAPI', 'Docker', 'Redis', 'SQLite',
+  'HuggingFace', 'BERT', 'LLMs', 'Nginx', 'DigitalOcean',
+  'JWT', 'Google OAuth 2.0', 'Grafana', 'Prometheus',
 ];
 
 const projects = [
   {
-    id: 'newspulse',
-    name: 'News Pulse',
+    id: 'vmart-inventory',
+    name: 'V-Mart — Real-Time Inventory Management System',
     description:
-      'AI-powered news aggregation platform leveraging BERT and LLMs to detect fake news, analyze political bias, and generate automated summaries.',
+      'Advanced full-stack POS & inventory management web dashboard powering the Virtual Mart VR Store. Features a real-time POS terminal, product & stock management, role-based access control, detailed sales reporting, and REST APIs that feed data directly into the Unity VR client. Built with Laravel, React.js & MySQL.',
     media: [
-      { type: 'video', src: '/newspulse-demo.mp4' },
+      { type: 'image', src: '/vmart-inventory/image1.png', alt: 'V-Mart Login Page' },
+      { type: 'image', src: '/vmart-inventory/image2.png', alt: 'V-Mart Dashboard Overview' },
+      { type: 'image', src: '/vmart-inventory/image3.png', alt: 'V-Mart Dashboard Metrics' },
     ],
-    tags: ['Python', 'FastAPI', 'React.js', 'BERT', 'Docker', 'Redis'],
-    github: 'https://github.com/saad7226/NewsPulse',
-    langClass: 'py',
+    tags: ['Laravel', 'React.js', 'PHP', 'MySQL', 'REST API', 'Vite'],
+    github: 'https://github.com/saad7226/V-Mart_Inventory',
+    langClass: 'js',
   },
   {
     id: 'fitmate-mobile',
@@ -248,18 +250,28 @@ export default function Projects() {
             <div className="fyp-inner">
               {/* Content */}
               <div className="fyp-content">
+                <div className="fyp-badge-row">
+                  <span className="fyp-badge-main fyp-badge-star">⭐ Main Project</span>
+                  <span className="fyp-badge-main">🎓 Final Year Project</span>
+                  <span className="fyp-badge-main">🔬 Research-Based</span>
+                </div>
 
-                <h2 className="fyp-title">V-Mart Inventory</h2>
+                <h2 className="fyp-title">News Pulse</h2>
                 <div className="fyp-subtitle">
-                  Real-Time POS & Inventory Management System
+                  AI-Powered News Aggregation & Analysis Platform
                 </div>
 
                 <div className="fyp-role-badge">
-                  💻 Full-Stack PHP Laravel Developer
+                  👑 Group Leader & AI/ML Specialist
                 </div>
 
                 <p className="fyp-description">
-                  Developed an advanced full-stack POS & inventory management web dashboard. Features a <strong>real-time POS terminal</strong>, comprehensive <strong>product & stock management</strong>, role-based access control, and detailed sales reporting. Architected with <strong>Laravel (PHP)</strong> and <strong>React.js</strong> using the <strong>MVC pattern</strong>, and built robust REST APIs that feed data directly into external clients.
+                  Led a team to develop a scalable <strong>microservices-based</strong> news platform that aggregates articles,
+                  generates <strong>LLM-powered summaries</strong>, detects <strong>fake news using BERT</strong>,
+                  analyzes <strong>political bias</strong>, and produces balanced counter-arguments.
+                  Built containerized services with <strong>FastAPI & Docker</strong>, deployed on
+                  <strong> DigitalOcean</strong> with Nginx, secured via JWT + Google OAuth 2.0, and
+                  monitored with <strong>Grafana & Prometheus</strong>.
                 </p>
 
                 <div className="fyp-tech-grid">
@@ -270,7 +282,7 @@ export default function Projects() {
 
                 <div className="fyp-actions">
                   <a
-                    href="https://github.com/saad7226/V-Mart_Inventory"
+                    href="https://github.com/saad7226/NewsPulse"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"
@@ -286,7 +298,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="btn-secondary"
                   >
-                    📄 View CV
+                    📄 View CV / Report
                   </a>
                 </div>
               </div>
